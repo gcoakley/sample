@@ -1,0 +1,27 @@
+Info : auto-selecting first available session transport "swd". To override use 'transport select <transport>'.
+adapter speed: 10000 kHz
+cortex_m reset_config sysresetreq
+Info : CMSIS-DAP: SWD  Supported
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : CMSIS-DAP: FW Version = 1.0
+Info : SWCLK/TCK = 1 SWDIO/TMS = 1 TDI = 0 TDO = 0 nTRST = 0 nRESET = 1
+Info : CMSIS-DAP: Interface ready
+Info : reduce speed request: 10000kHz to 5000kHz maximum
+Info : clock speed 10000 kHz
+Info : SWD DPIDR 0x2ba01477
+Info : nrf52.cpu: hardware has 6 breakpoints, 4 watchpoints
+Info : accepting 'gdb' connection on tcp/3333
+Warn : Unknown device (HWID 0x000000c7)
+undefined debug reason 7 - target needs reset
+Error: address + size wrapped (0xfffffffe, 0x00000004)
+Error: address + size wrapped (0xfffffffe, 0x00000004)
+Error: address + size wrapped (0xfffffffe, 0x00000004)
+Error: nrf52.cpu -- clearing lockup after double fault
+target halted due to debug-request, current mode: Handler HardFault
+xPSR: 0x01000003 pc: 0xfffffffe msp: 0xffffffd8
+Polling target nrf52.cpu failed, trying to reexamine
+Info : nrf52.cpu: hardware has 6 breakpoints, 4 watchpoints
+shutdown command invoked
+
+
+Info : dropped 'gdb' connection
